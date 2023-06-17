@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test 1 - Number generator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/scrpt.js"></script>
+</head>
+
+<body>
+   <div id="box">
+    <p>Randomly select 50 numbers with in this range:</p>
+    <form action="" id="form">
+        <div class="form-group-wraper">
+            <label for="startNumber">From</label>
+            <div class="form-group">
+                <input type="number" id="startNumber" />
+                <span>This field is required.</span>
+            </div>
+        </div>
+
+        <div class="form-group-wraper">
+            <label for="endNumber">to</label>
+            <div class="form-group">
+                <input type="number" id="endNumber" />
+                <span>This field is required.</span>
+            </div>
+        </div>
+    </form>
+
+    <div id="btn">
+        <button type="button" onclick="getNumbers();">Do it!</button>
+    </div>
+   </div>
+</body>
+
+</html>
